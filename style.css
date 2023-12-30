@@ -9,11 +9,8 @@ h1 {
 li {
     height: auto;
     width: 80%;
-    box-shadow: 0 0 0 2px rgba(218, 102, 123, 1), 8px 8px 0 0 rgba(218, 102, 123, 1);
     display: inline-block;
     cursor: pointer;
-    background-color: #add8e6;
-    border-radius: 20px;
 }
 
 p {
@@ -32,7 +29,7 @@ p {
     margin-right: auto;
     display: block;
     margin-top: 20px;
-    border-radius: 65px;
+    border-radius: 60px;
 }
 
 .logo-wib {
@@ -80,4 +77,3 @@ body {
     width: 40%;
     height: 300px;
 }
-  
