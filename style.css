@@ -1,11 +1,9 @@
-h1 {
-    color: rgb(49, 48, 48);
-    font-family: cambria;
-    text-align: center;
-    font-size: 30px;
+.titulo1 {
     margin-top: 20px;
-    margin-bottom: 10px;
-    
+    margin-right: 50px;
+    font-size: 20px;
+    color: #800080;
+    text-align: center;
 }
 
 li {
@@ -14,7 +12,7 @@ li {
     display: inline-block;
     }
 
-p {
+.p1 {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -37,20 +35,20 @@ p {
 }
 
 .logo-wib {
-    margin-left: auto;
+    margin-left: 0;
     margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
     display: block;
-    width: 25%;
-    border-radius: 10%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    width: 35%;
 }
+
 
 .acesso {
     color: indigo;
     margin-left: auto;
     margin-top: auto;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     font-family: cambria;
     margin-bottom: 10px;
@@ -62,10 +60,9 @@ ul {
     width: auto;
     margin-top: 10px;
     margin-bottom: 10px;
-}
-
-body {
-    background-color: #FFCBDB;
+    background-color: #ffcbdb;
+    border: 2px solid #ed30cf ;
+    border-radius: 10px;
 }
 
 .rodape {
@@ -73,6 +70,9 @@ body {
     font-size: 12px;
     text-align: center;
     font-family: cambria;
+    background-color: #bfddf3 ;
+    border: 2px solid #4169e1;
+    border-radius: 10px;
 }
 
 .video {
@@ -81,4 +81,12 @@ body {
     display: block;
     width: auto;
     height: auto;
+}
+
+.cabecalho {
+    background-image: url("./img/banner.jpg"); 
+    background-size: 95%; 
+    background-position: right;
+    display: flex;
+    flex-wrap: wrap;
 }
