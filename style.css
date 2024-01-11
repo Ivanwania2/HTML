@@ -1,4 +1,4 @@
-.titulo1 {
+.titulo1 { /*h1*/
     margin-top: 20px;
     margin-right: 50px;
     font-size: 20px;
@@ -12,7 +12,7 @@ li {
     display: inline-block;
     }
 
-.p1 {
+.p1 { /*Parágrafos do li*/
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -23,7 +23,7 @@ li {
     font-family: cambria;
 }
 
-.logo-imagem {
+.logo-imagem {/*Imagens do li*/
     width: 70%;
     margin-left: auto;
     margin-right: auto;
@@ -44,7 +44,7 @@ li {
 }
 
 
-.acesso {
+.acesso {/*h2*/
     color: indigo;
     margin-left: auto;
     margin-top: auto;
@@ -70,17 +70,16 @@ ul {
     font-size: 12px;
     text-align: center;
     font-family: cambria;
-    background-color: #bfddf3 ;
-    border: 2px solid #4169e1;
-    border-radius: 10px;
+    border-top: 1px solid black;
+    line-height: 10%; /*Espaço entre linhas*/
 }
 
 .video {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: auto; /*margem esquerda*/
+    margin-right: auto; /*margem direita*/
     display: block;
-    width: auto;
-    height: auto;
+    width: auto;/*largura*/
+    height: auto; /*altura*/
 }
 
 .cabecalho {
@@ -90,3 +89,8 @@ ul {
     display: flex;
     flex-wrap: wrap;
 }
+html, body{ /* Remover todas as margens*/ 
+    margin:0px !important;
+    padding: 0px !important;
+    background-color: #e9e9e9;
+ }
