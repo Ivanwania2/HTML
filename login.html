@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login de acesso</title>
+    <link rel="icon" href="./imgwibsite/WIB.jpg">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #023047
+        }
+
+        html {
+            background-color: #dcdcdc;
+        }
+
+        .page {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 30px;
+            margin-top: 20px;
+            width: 80%;
+            background-color: #add8e6;
+        }
+
+        .formLogin {
+            display: flex;
+            flex-direction: column;
+            background-color: #fff;
+            border-radius: 7px;
+            padding: 15px;
+            box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+            gap: 5px
+        }
+
+        .areaLogin img {
+            width: 420px;
+        }
+
+        .formLogin h1 {
+            padding: 0;
+            margin: 0;
+            font-weight: 500;
+            font-size: 2.3em;
+            text-align: center;
+        }
+
+        .formLogin p {
+            display: inline-block;
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 25px;
+        }
+
+        .formLogin input {
+            padding: 15px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            margin-top: 5px;
+            border-radius: 4px;
+            transition: all linear 160ms;
+            outline: none;
+        }
+
+
+        .formLogin input:focus {
+            border: 1px solid #f72585;
+        }
+
+        .formLogin label {
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .formLogin a {
+            display: inline-block;
+            margin-bottom: 20px;
+            font-size: 13px;
+            color: #555;
+            transition: all linear 160ms;
+        }
+
+        .formLogin a:hover {
+            color: #f72585;
+        }
+
+        .btn {
+            background-color: #95b963;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 600;
+            border: none !important;
+            transition: all linear 160ms;
+            cursor: pointer;
+            margin: 0 !important;
+
+        }
+
+        .btn:hover {
+            transform: scale(1.02);
+            background-color: #51cbce;
+
+        }
+
+        .logowibsite {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+            display: block;
+            width: 30%;
+            border-radius: 10%;
+            border: 2px solid #120a8f;
+        }
+
+        .rodape {
+            /*Div Rodapé*/
+            color: #474a51;
+            font-size: 12px;
+            text-align: center;
+            font-family: cambria;
+            border-top: 1px solid black;
+            line-height: 10%;
+            /*Espaço entre linhas*/
+        }
+    </style>
+</head>
+
+<body>
+    <img alt="drawing of a cat" src="./imgwibsite/WIB.jpg" class="logowibsite">
+    <div class="page">
+        <form method="POST" class="formLogin">
+            <h1>Login</h1>
+            <p>Digite seus dados de acesso nos campos abaixo.</p>
+            <label for="text">Usuário</label>
+            <input type="text" placeholder="Digite seu usuário" id="login">
+            <label for="password">Senha</label>
+            <input type="password" placeholder="Digite sua senha" id="senha">
+            <input type="submit" onclick="logar(); return false" class="btn">
+        </form>
+    </div>
+    <script>
+
+
+        function logar() {
+
+            var login = document.getElementById('login').value;
+            var senha = document.getElementById('senha').value;
+
+            if (login == "admin" && senha == "admin") {
+                alert('Login efetuado com sucesso!');
+                location.href = "https://www.wibmultimarcas.com.br/cliente.html";
+            } else {
+                alert('Usuário ou senha incorretos');
+            }
+
+        }
+
+    </script>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="rodape">
+        <h3>WIB Sites - CNPJ nº 39.334.932/0001-06</h3>
+        <p>Rua Joaquim Bona, nº 93, Santa Cruz</p>
+        <p>Campo Maior/PI, CEP: 64.280-000</p>
+        <p> ©2024 Todos os direitos reservados.</p>
+    </div>
+</body>
+
+</html>
