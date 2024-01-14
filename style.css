@@ -72,14 +72,12 @@ li {
     border: 2px solid #ed30cf ;
     border-radius: 10px;
 }
-.ul2{ /*Segundo ul*/
-    width: 90%;
-    right: auto;
+.ul2{ /*Segunda ul*/
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10%;
+    margin-top: 8px;
     display: flex;
-}
+    }
 .rodape {
     color: #474a51;
     font-size: 12px;
@@ -111,14 +109,27 @@ html, body{ /* Remover todas as margens*/
  }
  .bnt {
     /*Botão login*/
-    border-radius: 10px;
+    border-radius: 5px;
     color: #120a8f;
     font-weight: 500;
     font-size: 20px;
-    border: none !important;
     transition: all linear 160ms;
     background-color: #d3d3d3;
     cursor: pointer;
+}
+.bnt1 {
+    /*Botão Já quero!*/
+    border-radius: 5px;
+    color: #120a8f;
+    font-weight: 600;
+    font-size: 15px;
+    transition: all linear 300ms;
+    background-color: #d3d3d3;
+    cursor: pointer;
+    margin-top: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .acesso1 {
     /*login*/
