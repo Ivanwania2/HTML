@@ -4,7 +4,10 @@
     font-size: 20px;
     color: #800080;
     text-align: center;
-}
+    font-family: "Salsa", cursive;
+    font-weight: 600;
+    font-style: normal;
+}  
 
 li {
     height: 30%;
@@ -86,6 +89,14 @@ li {
     border-top: 1px solid black;
     line-height: 10%; /*Espaço entre linhas*/
 }
+.amém {
+    color: #474a51;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Salsa", cursive;
+    font-weight: 500;
+    font-style: normal;
+}
 
 .video {
     margin-left: auto; /*margem esquerda*/
@@ -121,9 +132,9 @@ html, body{ /* Remover todas as margens*/
     /*Botão Já quero!*/
     border-radius: 5px;
     color: #120a8f;
-    font-weight: 600;
-    font-size: 15px;
-    transition: all linear 300ms;
+    font-weight: 500;
+    font-size: 20px;
+    transition: all linear 160ms;
     background-color: #d3d3d3;
     cursor: pointer;
     margin-top: 5px;
