@@ -69,8 +69,8 @@ li {
     width: auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: #ffcbdb;
-    border: 2px solid #ed30cf ;
+    background-color: #fff;
+    border: 2px solid blueviolet ;
     border-radius: 10px;
 }
 .ul2{ /*Segunda ul*/
@@ -120,7 +120,7 @@ html, body{ /* Remover todas as margens*/
     color: #120a8f;
     font-weight: 500;
     font-size: 15px;
-    transition: all linear 160ms;
+    transition: all linear 100ms;
     background-color: #d3d3d3;
     cursor: pointer;
 }
@@ -130,7 +130,7 @@ html, body{ /* Remover todas as margens*/
     color: #120a8f;
     font-weight: 500;
     font-size: 15px;
-    transition: all linear 160ms;
+    transition: all linear 100ms;
     background-color: #d3d3d3;
     cursor: pointer;
     margin-top: 5px;
