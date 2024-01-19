@@ -10,7 +10,7 @@ a {
     text-decoration: none;
 }
 
-li {
+.y1 {
     height: 30%;
     width: 30%;
     display: inline-block;
@@ -66,24 +66,31 @@ li {
     font-family: cambria;
     margin-bottom: 10px;
 }
-.ul1{ /*Primeira ul*/
+.ul1{ /*segunda ul*/
     display: flex;
     gap: 05px;
-    width: auto;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 10px;
     margin-bottom: 10px;
     background-color: #d8c7dc;
     border: 2px solid blueviolet ;
     border-radius: 10px;
 }
-.ul2{ /*Segunda ul*/
-    margin-left: auto;
-    margin-right: auto;
+.x2{ /*primeira ul*/   
     margin-top: 8px;
     display: flex;
+    width: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-left: 10px;
+    margin-right: auto;
+    list-style-type: none 
     }
+
 .rodape {
     color: #474a51;
     font-size: 12px;
@@ -106,7 +113,6 @@ li {
     background-size: 95%; 
     background-position: right;
     display: flex;
-    flex-wrap: wrap;
 }
 html, body{ /* Remover todas as margens*/ 
     margin:0px !important;
